@@ -1,0 +1,51 @@
+/* * {
+    border-style: dotted; color: black;
+    border-width: 1px;
+}*/
+body {
+    width: 100%;
+
+}
+.header {
+    background-color: whitesmoke;
+    padding-top: 12px;
+    align-items: center;
+}
+.icon
+{
+    font-size: large;
+    justify-content: flex-end;
+}
+#title {
+    font-size: 18px;
+    color: black;
+    margin-left: 29px;
+    font-family: sans-serif;
+}
+.bs1 /*new post button*/ {
+font-size: 13px;
+}
+
+/* -------------------------------aqui empieza el post-------------------------------*/
+.new-post {
+    font-size: 14px;
+    padding: 8px;
+
+}
+.card {
+    width: 400px;
+    margin: auto;
+}
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 21px;
+}
+.galery {
+    background-color: white;
+}
+.galery img {
+    max-width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}

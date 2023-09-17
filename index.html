@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5502d680e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?>
+</head>
+<body>
+  <div class="container-fluid p-5">
+  <div class="header row"> 
+    <div class="row">
+      <div class="icon col-1">
+        <i class="fa-brands fa-instagram fa-lg p-3"><p id="title">Instagram</p></i>
+      </div>
+      <!-- </div> -->
+      <div class="col-8"></div> <!------------------------ESPACIO CENTRAL DE LA BARRA------------------------->
+      <div class="col-1">
+          <!------------------------------------------- Modal button ---------------------------------------------------------->
+        <button type="button" class="bs1 btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Create a new post
+        </button>
+      </div>
+    <!-- </div> -->
+        <!------------------------------------------- Modal ---------------------------------------------------------->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h7 class="pb-3">Caption:</h7>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Add the caption of your post here" aria-label="Add the caption of your post here" aria-describedby="basic-addon1">
+                </div>
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+  
+              <!-------------------------------------------Drop down button ---------------------------------------------------------->
+
+      <div class="col-1">
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+        </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+            <li><a class="dropdown-item" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <br>
+                              <!------------------------Aqui empieza el primer post------------------------->
+  <div class="card" style="width: 40rem;">
+    <div class="card-header">
+     <p><strong>This is my guitar!</strong></p>
+     <p>26/08</p>
+    </div>
+    <img src="img/(1).jpg" class="card-img-top" alt="my dawg">
+    <div class="card-body">
+      <p><strong>204 likes</strong></p>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <br>
+                                <!------------------------Aqui empieza segundo post------------------------->
+  <div class="card" style="width: 40rem;">
+    <div class="card-header">
+      <p><strong>This f dawg follows me everwhere</strong></p>
+      <p>26/08</p>
+    </div>
+    <img src="img/(2).jpg" class="card-img-top" alt="rocket">
+    <div class="card-body">
+      <p><strong>204 likes</strong></p>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <br>
+                                <!------------------------Aqui empieza tercer post------------------------->
+<div class="card" style="width: 40rem;">
+  <div class="card-header">
+    <p><strong>I'm scared of this dawg</strong></p>
+    <p>26/08</p>
+  </div>
+  <img src="img/(5).jpg" class="card-img-top" alt="Living with my dawg">
+  <div class="card-body">
+    <p><strong>204 likes</strong></p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<br>
+                          <!------------------------Aqui empieza el cuarto post------------------------->
+<div class="card" style="width: 40rem;">
+  <div class="card-header">
+    <p><strong>Some food for the dawg!</strong></p>
+    <p>26/08</p>
+  </div>
+<img src="img/(3).jpg" class="card-img-top" alt="My dawg likes people">
+  <div class="card-body">
+    <p><strong>204 likes</strong></p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<br>
+                            <!------------------------Aqui empieza quinto post------------------------->
+<div class="card" style="width: 40rem;">
+  <div class="card-header">
+    <p><strong>Dawg selfie</strong></p>
+    <p>26/08</p>
+  </div>
+  <img src="img/(4).jpg" class="card-img-top" alt="My dawg wants attention">
+  <div class="card-body">
+    <p><strong>204 likes</strong></p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<br>
+                            <!------------------------Aqui empieza sexto post------------------------->
+<div class="card" style="width: 40rem;">
+  <div class="card-header">
+    <p><strong>The Dawg and some friends!</strong></p>
+    <p>26/08</p>
+  </div>
+  <img src="img/(5).jpg" class="card-img-top" alt="I'm afraid of my dawg">
+  <div class="card-body">
+    <p><strong>204 likes</strong></p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<br>
+
+                            <!------------------------Aqui empiezan las imagenes del post------------------------->
+
+<div class="galery container">
+  <div class="row p-3 gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(1).jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(2).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>		
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(3).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(4).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(5).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(6).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(7).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/(8).jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+    <div class="col">
+      <div class="thumbnail">
+        <img src="img/00.jpg" class="img-fluid" alt="...">
+        </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
