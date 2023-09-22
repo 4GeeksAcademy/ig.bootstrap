@@ -11,20 +11,18 @@
 </head>
 <body>
   <div class="container-fluid p-5">
-  <div class="header row"> 
-    <div class="row">
-      <div class="icon col-1">
-        <i class="fa-brands fa-instagram fa-lg p-3"><p id="title">Instagram</p></i>
-      </div>
-      <!-- </div> -->
-      <div class="col-8"></div> <!------------------------ESPACIO CENTRAL DE LA BARRA------------------------->
-      <div class="col-1">
-          <!------------------------------------------- Modal button ---------------------------------------------------------->
-        <button type="button" class="bs1 btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Create a new post
-        </button>
-      </div>
-    <!-- </div> -->
+    <div class="header row"> 
+      <div class="row">
+        <div class="icon col-1">
+          <i class="fa-brands fa-instagram fa-lg p-3"><p id="title">Instagram</p></i>
+        </div>       
+        <div class="col-8"></div> <!------------------------ESPACIO CENTRAL DE LA BARRA------------------------->      
+                  <!------------------------------------------- Modal button ---------------------------------------------------------->
+        <div class="col-1">
+          <button type="button" class="bs1 btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+        </div>
         <!------------------------------------------- Modal ---------------------------------------------------------->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -48,8 +46,6 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
-  
               <!-------------------------------------------Drop down button ---------------------------------------------------------->
 
       <div class="col-1">
@@ -64,143 +60,159 @@
             <li><a class="dropdown-item" href="#">Log out</a></li>
           </ul>
         </div>
+      </div> <!--CIERRE DE DROPDOWN-->
+    </div>
+  </div> <!--header row-->
+  <br>
+                              <!------------------------AQUI ESTAN LAS TABS------------------------->
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fas fa-grip-lines-vertical"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fas fa-th"></i></button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+      <!------------------------Aqui empieza el primer post------------------------->
+      <br>
+        <div class="card" style="width: 40rem;">
+          <div class="card-header">
+          <p><strong>This is my guitar!</strong></p>
+          <p>26/08</p>
+          </div>
+          <img src="img/(1).jpg" class="card-img-top" alt="my dawg">
+          <div class="card-body">
+            <p><strong>204 likes</strong></p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <br>
+        <!------------------------Aqui empieza segundo post------------------------->
+        <div class="card" style="width: 40rem;">
+          <div class="card-header">
+            <p><strong>This f dawg follows me everwhere</strong></p>
+            <p>26/08</p>
+          </div>
+          <img src="img/(2).jpg" class="card-img-top" alt="rocket">
+          <div class="card-body">
+            <p><strong>204 likes</strong></p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <br>
+        <!------------------------Aqui empieza tercer post------------------------->
+        <div class="card" style="width: 40rem;">
+        <div class="card-header">
+          <p><strong>I'm scared of this dawg</strong></p>
+          <p>26/08</p>
+        </div>
+        <img src="img/(5).jpg" class="card-img-top" alt="Living with my dawg">
+        <div class="card-body">
+          <p><strong>204 likes</strong></p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        </div>
+        <br>
+        <!------------------------Aqui empieza el cuarto post------------------------->
+        <div class="card" style="width: 40rem;">
+          <div class="card-header">
+            <p><strong>Some food for the dawg!</strong></p>
+            <p>26/08</p>
+          </div>
+        <img src="img/(3).jpg" class="card-img-top" alt="My dawg likes people">
+          <div class="card-body">
+            <p><strong>204 likes</strong></p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <br>
+        <!------------------------Aqui empieza quinto post------------------------->
+        <div class="card" style="width: 40rem;">
+          <div class="card-header">
+            <p><strong>Dawg selfie</strong></p>
+            <p>26/08</p>
+          </div>
+          <img src="img/(4).jpg" class="card-img-top" alt="My dawg wants attention">
+          <div class="card-body">
+            <p><strong>204 likes</strong></p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <br>
+        <!------------------------Aqui empieza sexto post------------------------->
+        <div class="card" style="width: 40rem;">
+          <div class="card-header">
+            <p><strong>The Dawg and some friends!</strong></p>
+            <p>26/08</p>
+          </div>
+          <img src="img/(5).jpg" class="card-img-top" alt="I'm afraid of my dawg">
+          <div class="card-body">
+            <p><strong>204 likes</strong></p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <br>
+      </div> <!------------ CIERRE DE LA PESTAÑA DE POST---------->
+
+<!-------------------------------------ESTA ES LA PESTAÑA DE GALERIA---------------------------------------------------------------------->
+      <br>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="galery container">
+        <div class="row p-3 gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(1).jpg" class="img-fluid" alt="...">
+              </div>
+            </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(2).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>		
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(3).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(4).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(5).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(6).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(7).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/(8).jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+          <div class="col">
+            <div class="thumbnail">
+              <img src="img/00.jpg" class="img-fluid" alt="...">
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-
-  <br>
-                              <!------------------------Aqui empieza el primer post------------------------->
-  <div class="card" style="width: 40rem;">
-    <div class="card-header">
-     <p><strong>This is my guitar!</strong></p>
-     <p>26/08</p>
-    </div>
-    <img src="img/(1).jpg" class="card-img-top" alt="my dawg">
-    <div class="card-body">
-      <p><strong>204 likes</strong></p>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-  <br>
-                                <!------------------------Aqui empieza segundo post------------------------->
-  <div class="card" style="width: 40rem;">
-    <div class="card-header">
-      <p><strong>This f dawg follows me everwhere</strong></p>
-      <p>26/08</p>
-    </div>
-    <img src="img/(2).jpg" class="card-img-top" alt="rocket">
-    <div class="card-body">
-      <p><strong>204 likes</strong></p>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-  <br>
-                                <!------------------------Aqui empieza tercer post------------------------->
-<div class="card" style="width: 40rem;">
-  <div class="card-header">
-    <p><strong>I'm scared of this dawg</strong></p>
-    <p>26/08</p>
-  </div>
-  <img src="img/(5).jpg" class="card-img-top" alt="Living with my dawg">
-  <div class="card-body">
-    <p><strong>204 likes</strong></p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<br>
-                          <!------------------------Aqui empieza el cuarto post------------------------->
-<div class="card" style="width: 40rem;">
-  <div class="card-header">
-    <p><strong>Some food for the dawg!</strong></p>
-    <p>26/08</p>
-  </div>
-<img src="img/(3).jpg" class="card-img-top" alt="My dawg likes people">
-  <div class="card-body">
-    <p><strong>204 likes</strong></p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<br>
-                            <!------------------------Aqui empieza quinto post------------------------->
-<div class="card" style="width: 40rem;">
-  <div class="card-header">
-    <p><strong>Dawg selfie</strong></p>
-    <p>26/08</p>
-  </div>
-  <img src="img/(4).jpg" class="card-img-top" alt="My dawg wants attention">
-  <div class="card-body">
-    <p><strong>204 likes</strong></p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<br>
-                            <!------------------------Aqui empieza sexto post------------------------->
-<div class="card" style="width: 40rem;">
-  <div class="card-header">
-    <p><strong>The Dawg and some friends!</strong></p>
-    <p>26/08</p>
-  </div>
-  <img src="img/(5).jpg" class="card-img-top" alt="I'm afraid of my dawg">
-  <div class="card-body">
-    <p><strong>204 likes</strong></p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<br>
-
-                            <!------------------------Aqui empiezan las imagenes del post------------------------->
-
-<div class="galery container">
-  <div class="row p-3 gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(1).jpg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(2).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>		
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(3).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(4).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(5).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(6).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(7).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/(8).jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-    <div class="col">
-      <div class="thumbnail">
-        <img src="img/00.jpg" class="img-fluid" alt="...">
-        </div>
-    </div>
-  </div>
-</div>
+                              <!------------------------Aqui terminan las tabs ----------------------- -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

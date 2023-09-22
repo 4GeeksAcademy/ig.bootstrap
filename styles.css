@@ -26,6 +26,9 @@ body {
 font-size: 13px;
 }
 
+#myTab {
+    justify-content: center;
+}
 /* -------------------------------aqui empieza el post-------------------------------*/
 .new-post {
     font-size: 14px;
@@ -35,6 +38,10 @@ font-size: 13px;
 .card {
     width: 400px;
     margin: auto;
+   
+}
+.card img {
+border-radius: none;
 }
 .card-header {
     display: flex;
